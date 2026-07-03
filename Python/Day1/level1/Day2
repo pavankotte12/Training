@@ -1,2 +1,0 @@
-name = "pavankumar"
-print(name[-1])
