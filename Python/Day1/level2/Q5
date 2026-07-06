@@ -1,3 +1,0 @@
-x = int(input("Enter a number: "))
-y = 10
-print(x+y)
