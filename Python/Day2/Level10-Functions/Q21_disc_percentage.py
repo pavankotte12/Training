@@ -7,6 +7,7 @@ try:
     # Test cases
     print(final_price(100))
     print(final_price(100,20))
+    
 except TypeError:
     print("Invalid input: price and discount must be numbers.")
 

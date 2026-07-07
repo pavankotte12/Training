@@ -1,3 +1,4 @@
+# Ask user to enter two numbers and check greater than, less than and equal of first number with second number
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 

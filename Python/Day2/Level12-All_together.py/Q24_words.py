@@ -16,4 +16,8 @@ capitalized_sentence = sentence.title()
 # Output
 print(f"Number of words: {word_count}")
 print(f"Longest word: {longest_word}")
-print(f"Capitalized sentence: {capitalized_sentence}")
+#print(f"Capitalized sentence: {capitalized_sentence}")
+result = ""
+for word in words:
+    result += word.capitalize() + " "
+print(result.strip())

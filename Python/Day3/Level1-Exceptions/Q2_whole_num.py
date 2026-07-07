@@ -3,6 +3,7 @@ while True:
     try:
         # Take input and convert it to a integer
         num = int(input("Enter a whole number: "))
+        print("You entered:", num)
         break
    
     # Executes only if no exception occurs in try block
@@ -11,4 +12,4 @@ while True:
     
     # Always execute this block
     finally:
-        print("Done")
+        print("")

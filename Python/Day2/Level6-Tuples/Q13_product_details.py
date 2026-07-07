@@ -1,4 +1,4 @@
-
+# Unpack product data and print total cost of product
 product_data = ("phone",25000,10)
 name,price,quantity=product_data
 
