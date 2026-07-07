@@ -1,0 +1,2 @@
+-- Each employee row connects to each department row through employees.department_id which matches with departments.department_id(foreign key relationship)
+-- Storing department_id instead of repeating department_name and location avoids data duplication, reduces storage use, prevents inconsistencies 

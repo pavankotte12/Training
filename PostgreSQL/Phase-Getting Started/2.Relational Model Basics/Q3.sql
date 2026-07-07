@@ -1,0 +1,3 @@
+-- employee_id is a primary key in Employee table
+-- deapartment_id is a primary key in departments table
+-- manager_id is a foreign key pointing at departments
