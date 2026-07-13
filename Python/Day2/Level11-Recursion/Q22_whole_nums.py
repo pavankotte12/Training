@@ -3,7 +3,7 @@ try:
     def add_recursion(n):
 
         # Stop when the number is less than or equal to 1
-        if n<=1:
+        if n <= 1:
             return n
         
         # Add current number to total of the numbers

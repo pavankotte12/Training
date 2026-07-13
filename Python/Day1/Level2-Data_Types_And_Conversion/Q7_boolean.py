@@ -3,7 +3,7 @@
 answer = input("Do you like Python? (yes/no): ")
 
 # Create a Boolean variable
-likes_coding = True
+likes_coding = True 
 
 # Print the values
 print("User's answer:", answer)

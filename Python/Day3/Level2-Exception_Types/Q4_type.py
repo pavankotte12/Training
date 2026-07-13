@@ -11,9 +11,9 @@ try:
     print(f"result {result}")
 
 # This error occurs when trying to add integer and string 
-except TypeError:
-    print("Can not add number and text ")
-
+except TypeError as e:
+    print(f"Error: , {e}, Can not add number and text")
+    
 # Always runs
 finally:
     print("Done")
